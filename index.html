@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .paper-blue {
+            position: absolute;
+            width: 1600px;
+            height: 1200px;
+            left: 10%;
+            top: 0px;
+            background: #EEF2FF;
+        }
+
+        .card {
+
+            position: absolute;
+            width: 550px;
+            height: 930px;
+            left: 30%;
+            top: 135px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 27px 50px -15px #ABB9E5;
+            border-radius: 20px;
+        }
+
+        .card-content {
+            position: absolute;
+            width: 997px;
+            height: 489px;
+            left: 10%;
+            top: 461px;
+        }
+        #title-signup{
+            text-align: center;
+            margin-top:10%;
+        }
+        .frm-signup{ 
+            margin-left: 10%;
+            text-align: left;
+            margin-top: 10%;
+        }
+        
+        .input-signup{
+            width: 80%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        .label-signup{ 
+            font-size: 20px;
+        }
+        .cancelbtn, .signupbtn {
+        float: left;
+        width: 40%;
+        margin-inline: 7px;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+button {
+    border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9; 
+}
+    </style>
+</head>
+
+<body>
+    <div class="paper-blue">
+        <div class="card">
+            <h1 id="title-signup">Signup</h1>
+            <form class="frm-signup">
+                <label class="label-signup" for="fname" >First name</label><br>
+                <input class="input-signup" type="text" id="fname" name="fname"><br>
+                <label  class="label-signup" for="lname">Last name</label><br>
+                <input class="input-signup" type="text" id="lname" name="lname"><br>
+                <label  class="label-signup" for="lname">Email</label><br>
+                <input class="input-signup" type="text" id="lname" name="lname"><br>
+                <label  class="label-signup" for="lname">Password</label><br>
+                <input class="input-signup" type="password" id="lname" name="lname"><br>
+                <label  class="label-signup" for="lname">Repeat Password</label><br>
+                <input class="input-signup" type="password" id="lname" name="lname"><br>
+
+                <div class="btngroup">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                  </div>
+              </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
